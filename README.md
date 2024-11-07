@@ -1,67 +1,68 @@
-Ripple - Instagram Clone Web Application
-Ripple is a social media platform inspired by Instagram, built using Spring Boot for the backend and HTML, CSS, and JavaScript for the frontend. The app provides basic features such as user authentication, image posting, and likes. It is designed to showcase my skills in creating scalable and maintainable web applications with modern technologies.
+# **Ripple - Instagram Clone Web Application**
 
-Features
-User Authentication: Users can register, log in, and manage their profiles.
-Image Posting: Users can upload images and share them with others.
-Likes: Users can like posts and see the count of likes on each post.
-Design: Built with HTML, CSS, and JavaScript to ensure a new experience.
+**Ripple** is a social media platform inspired by Instagram, built with **Spring Boot** for the backend and **HTML**, **CSS**, and **JavaScript** for the frontend. The app offers features such as user authentication, image posting, and likes, providing a simple yet powerful way to showcase your skills in building scalable and dynamic web applications.
 
+---
 
-Tech Stack
-Backend:
-Java
-Spring Boot (RESTful APIs)
-PostgreSQL (Database)
+## **Features**
 
-Frontend:
-HTML
-CSS
-JavaScript
-Installation
-To run Ripple locally, follow these steps:
+- **User Authentication**: Users can register, log in, and manage their profiles.
+- **Image Posting**: Users can upload and share images with others.
+- **Likes**: Users can like posts and view the number of likes on each post.
+- **Design**: The app is designed with HTML, CSS, and JavaScript for a seamless new experience.
 
-Prerequisites
-Java (version 8 or above)
-Maven (for managing dependencies)
-PostgreSQL (for the database)
+---
 
+## **Tech Stack**
 
-Steps
-Clone the repository:
-open bash
-Copy code
-git clone https://github.com/AnisShah03/Ripple-Backend.git
-cd ripple
-Set up the PostgreSQL database:
+### **Backend**
+- **Java**
+- **Spring Boot** (RESTful APIs)
+- **PostgreSQL** (Database)
 
+### **Frontend**
+- **HTML**
+- **CSS**
+- **JavaScript**
+
+---
+
+## **Installation**
+
+To run **Ripple** locally, follow these steps:
+
+### **Prerequisites**
+Make sure you have the following installed:
+- **Java 8** or higher
+- **Maven** (for managing dependencies)
+- **PostgreSQL** (for the database)
+
+### **Steps**
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/AnisShah03/Ripple-Backend.git
+   cd ripple
+2. Set up the PostgreSQL database:
 Create a new database in PostgreSQL.
-Update the application.properties file with your database credentials.
+Update the application.properties file in the backend project with your database credentials.
 
-Build the application:
-bash
-Copy code
-mvn clean install
-
-Run the application:
-bash
-Copy code
-mvn spring-boot:run
-The backend server will be running on http://localhost:8080.
-
-Access the app in your browser by navigating to the front-end directory and opening the index.html file.
-API Endpoints
+### **API Endpoints**
 Here are some key RESTful API endpoints available in the app:
 
-//pending to add
+Note: endpoints will be added soon.
 
 
 Contributing
 Feel free to fork the repository, create a branch, and submit a pull request with improvements or bug fixes. Contributions are welcome!
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+To report an issue or bug, open an Issue.
+To contribute, please follow these steps:
+Fork the repository.
+Create a new branch for your changes.
+Commit your changes and push to your fork.
+Open a pull request with a description of the changes.
 
 Acknowledgements
-Thanks to Spring Boot for making it easy to build Java-based applications.
-Special thanks to the PostgreSQL community for providing a robust and reliable database.
+Special thanks to Spring Boot for making it easy to build Java-based applications.
+Thanks to the PostgreSQL community for providing a reliable and powerful database.
+Inspiration for the project came from the Instagram platform, with a focus on building a simplified version with core features.
